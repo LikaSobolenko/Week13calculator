@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <button id="plus"> + </button>
+    <button id="minus"> - </button>
+    <button id="multiplication"> * </button>
+    <button id="division"> / </button>
+    <script>
+        plus.onclick = function () {
+            let a = prompt("Первое число");
+            let b = prompt("Второе число");
+
+            alert(Number(a) + Number(b));
+        };
+
+        minus.onclick = function () {
+            let a = prompt("Уменьшаемое");
+            let b = prompt("Вычитаемое");
+
+            alert(Number(a) - Number(b));
+        };
+
+        multiplication.onclick = function () {
+            let a = prompt("Первое число");
+            let b = prompt("Второе число");
+
+            alert(Number(a) * Number(b));
+        };
+
+        division.onclick = function () {
+            let a = prompt("Делимое");
+            let b = prompt("Делитель");
+
+            alert(Number(a) / Number(b));
+        };
+    </script>
+
+</body>
+
+</html>
